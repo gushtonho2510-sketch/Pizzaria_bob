@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Menu do site</title>
+</head>
+
+<style>
+
+body{
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+}
+
+.pedidos{
+      background-color: #e74c31 ;
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.butao{
+      color: black;
+      text-decoration: none;
+      background-color:#33a049 ;
+      font-size: 20px;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.pedir{
+      font-size: 35px;
+      background-color: #FEFFD3;
+      border: none;
+      padding: 12px;
+      color: #d63131;
+
+}
+
+.pagar{
+      color:#FEFFD3;
+      background-color: #d63131;
+      font-size: 15px;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer; 
+}
+
+.cadapo{
+    font-size: 35px;
+      background-color: #FEFFD3;
+      border: none;
+      padding: 12px;
+      color: #d63131;
+}
+
+.uniao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.cadapo, .pedir{
+    flex: 1;
+    max-width: 400px;
+}
+
+.sair{
+      color: black;
+      text-decoration: none;
+      background-color:#33a049 ;
+      font-size: 12px;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.sasair{
+      margin-right: 1200px;
+}
+
+</style>
+
+<body style="background-color:#fcc15b;">
+
+      <div class="pedidos">
+
+      <div class="sasair">
+      <a href="Matricula.html" class="sair">&larr; SAIR</a>
+      </div>
+
+      <h1>Peça Sua PIZZA aqui!😍</h1>
+    <form action="/presencial.html">
+      <a href="presencial.html" class="butao">Pedir Presencialmente</a>
+      <a href="presencial.html" class="butao">Drive-Thru</a>
+      <a href="presencial.html" class="butao">Agendar</a>
+    </form>
+      <br>
+      </div>
+
+      <br>
+      <br>
+      <br> 
+      <br>
+
+
+<div class="uniao">
+
+
+      <div class="pedir">
+
+      <form action="/action_page.php"></form>
+      <h3>Faça seu  Pedido</h3>
+      <label for="fname">Local de entrega:</label><br>
+      <input type="text" id="fname" name="fname" value="local"><br>
+      <label for="fname">Horário de entrega:</label><br>
+      <input type="text" id="fname" name="fname" value="horário"><br>
+      <label for="fname">Método de pagamento</label><br>
+      <input type="text" id="fname" name="fname" value="pix/débito/crédito"><br>
+      <label for="cars">Escolha sua pizza:</label><br>
+      <select id="cars" name="cars">
+      <option value="volvo">Peperoni</option>
+      <option value="saab">4 queijos</option>
+      <option value="fiat">Portuguesa</option>
+      <option value="audi">Marguerita</option>
+      <option value="audi">Calabresa</option>
+      <option value="audi">Abacaxi</option>
+      </select>
+      <label for="fname"></label>
+      <input type="text" id="fname" name="fname" value="quantidade de pizzas">
+      <br>
+      <label for="cars">Bebida:</label><br>
+      <select id="cars" name="cars">
+      <option value="volvo">Coca</option>
+      <option value="volvo">Pepsi</option>
+      <option value="volvo">Fanta</option>
+      <option value="volvo">Sprite</option>
+      </select>
+      <select id="cars" name="cars">
+      <option value="volvo">2 litros</option>
+      <option value="volvo">1 litro</option>
+      <option value="volvo">latinha</option>
+      </select>
+      <label for="fname"></label>
+      <input type="text" id="fname" name="fname" value="quantidade de refris"><br>
+      <center>
+      <button class="pagar">Pedir</button>
+      </center>
+      </form>
+
+
+      </div>
+      <br>
+      <br>
+
+     <div class="cadapo">
+      <center>
+    <h2>Cardápio:</h2>
+<h4>Pizzas preços:</h4>
+<ul>
+  <li> Peperoni - R$30 reais</li>
+  <li> Calabresa - R$40 reais</li>
+  <li> 4 Queijos - R$20 reais</li>
+  <li> Abacaxi - R$20 reais</li>
+  <li> Marguerita - R$30 reais</li>
+  <li> Portuguesa - R$40 reais</li>
+  <h4> Bebidas Preços:</h4>
+  <li> Refrigerante latinha - R$10 reais (preço único)</li>
+  <br>
+  <li> Refrigerante 2 a 3 litros - R$15 reais (preço único)</li>
+</ul>  
+</center>
+</div>
+
+</div>
+
+</body>
+
+</html>
